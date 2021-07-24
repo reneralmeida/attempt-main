@@ -1,0 +1,175 @@
+* {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+html { 
+  background: url("/img/body.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  background-color: #16161a;
+  padding: 40px; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-style: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #2cb67d;
+}
+
+p {
+  text-align: center;
+}
+
+.grid-container {
+  margin-top: 120px;
+  margin-left: 300px;
+  margin-right: 100px;
+  margin-bottom: 990px;
+  display: grid;
+  border: black 5px solid;
+  grid-template-rows: 50px 100px 100px 50px;
+  grid-template-columns: 50px 100px 100px 100px;
+  grid-gap: 5px;
+
+}
+
+.grid-item1 {
+  text-align: center; border: black 5px solid;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.grid-item2 {
+  text-align: center; border: #16161a 5px solid;
+  grid-column-start: 8;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: 60px;
+}
+
+.grid-item3 {
+  text-align: center; border: #16161a 5px solid;
+  grid-column-start: 8;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-top: 170px;
+  margin-bottom: auto;
+  margin-right: 80px;
+  margin-left: 60px;
+}
+
+#grid {
+  border: 5px #16161a solid;
+  float: left;
+  margin-left: 20px; 
+}
+
+#grid div {
+  float: top;
+  padding: 30px;
+}
+
+#grid div img{
+  width: 100px;
+  
+}
+
+.grid-container2 {
+  margin-top: 120px;
+  margin-left: 300px;
+  margin-right: 100px;
+  margin-bottom: 990px;
+  display: grid;
+  border: #16161a 5px solid;
+  grid-template-rows: 50px 100px 100px 50px;
+  grid-template-columns: 50px 100px 100px 100px;
+  grid-gap: 5px;
+}
+
+.grid-item4 {
+  text-align: center; border: #16161a 5px solid;
+  grid-column-start: 8;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: 60px;
+}
+
+.grid-item5 {
+  text-align: center; border: #16161a 5px solid;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.grid-item6 {
+  text-align: center; border: #16161a 5px solid;
+  grid-column-start: 8;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-top: 170px;
+  margin-bottom: auto;
+  margin-right: 80px;
+  margin-left: 60px;
+}
+
+.titulo-do-site {
+  padding: 5px;
+  color: #2cb67d;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+  font-size: 30px;
+}
+
+.navbar {
+  position: absolute;
+  right: 28px;
+  top: 50px;
+}
+
+.itens {
+  color: #2cb67d;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-style: italic;
+  bottom: 10px;
+  font-size: 30px;
+  color: #2cb67d;
+  background-color: #16161a;
+  padding: 50px 30px 20px 10px;
+}
+
